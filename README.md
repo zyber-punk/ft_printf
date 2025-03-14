@@ -60,13 +60,13 @@ The diagram below illustrates how `ft_printf` parses and processes these format 
 
 ![Diagram](./diagrams/ft_printf.en.png)
 
-### 🔹 **ft_printf**
+### 🔹 **`ft_printf`**
 - **Role**: Main function that orchestrates the formatting and output of data.
 - **Process**:
-  1. Initializes data structures.
-  2. Parses the format string and identifies specifiers.
-  3. Calls the corresponding rendering functions.
-  4. Manages the output buffer for performance.
+  - Initializes data structures.
+  - Parses the format string and identifies specifiers.
+  - Calls the corresponding rendering functions.
+  - Manages the output buffer for performance.
 
 ### 🔹 **Parsing system**
 - **`parse_format`**: Extracts format specifiers and flags.
@@ -154,13 +154,13 @@ Le diagramme ci-dessous illustre comment `ft_printf` analyse et traite ces spéc
 
 ![Diagramme](./diagrams/ft_printf.fr.png)
 
-### 🔹 **ft_printf**
+### 🔹 **`ft_printf`**
 - **Rôle** : Fonction principale qui orchestre la mise en forme et l'affichage des données.
 - **Fonctionnement** :
-  1. Initialise les structures de données.
-  2. Analyse la chaîne de format et identifie les spécificateurs.
-  3. Appelle les fonctions de rendu appropriées.
-  4. Gère un buffer de sortie pour améliorer les performances.
+  - Initialise les structures de données.
+  - Analyse la chaîne de format et identifie les spécificateurs.
+  - Appelle les fonctions de rendu appropriées.
+  - Gère un buffer de sortie pour améliorer les performances.
 
 ### 🔹 **Système de parsing**
 - **`parse_format`** : Analyse les spécificateurs de format et les flags.
